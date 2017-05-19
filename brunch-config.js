@@ -10,5 +10,12 @@ exports.files = {
 };
 
 exports.plugins = {
-  babel: {presets: ['latest']}
+  babel: {
+    presets: [
+      'env',
+      'es2015',
+      'es2016',
+      'es2017'
+    ],
+  }
 };
